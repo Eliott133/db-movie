@@ -28,7 +28,7 @@ https://github.com/Eliott133/db-movie.git
 cd db-movie
 npm install
 ```
-3. Add your API key from TMDB in src/config/config_api.js
+3. Add your API key from TMDB in src/config/config_api.js. [TMBD api](https://developer.themoviedb.org/reference/intro/getting-started)
 
 4. Start the development server :
 
