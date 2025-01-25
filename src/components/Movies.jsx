@@ -25,7 +25,7 @@ function Movies({ movies, loading, error, query, nb_result }) {
                     <p className="text-gray-500">Aucun film trouvé. Essayez une autre recherche.</p>
                 </div>
             ) : (
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {movies.map((movie, index) => (
                         <MovieCard key={index} movie={movie} />
                     ))}
