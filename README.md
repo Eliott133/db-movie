@@ -28,14 +28,15 @@ https://github.com/Eliott133/db-movie.git
 cd db-movie
 npm install
 ```
+3. Add your API key from TMDB in src/config/config_api.js
 
-3. Start the development server :
+4. Start the development server :
 
 ```bash
 npm run dev
 ```
 
-6. Open your browser at the following address :
+5. Open your browser at the following address :
    ```
    http://localhost:5173/
    ```
