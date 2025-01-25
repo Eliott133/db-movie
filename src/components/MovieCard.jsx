@@ -34,7 +34,7 @@ function MovieCard({ movie }) {
             </div>
 
             <div className="absolute bottom-0 left-0 translate-y-full w-full text-gray-800 p-4 transition-transform duration-300 ease-in-out group-hover:translate-y-0 bg-white max-h-[100px]">
-                <p className="text-sm text-gray-800">{truncate(movie.description, 160)}
+                <p className="text-sm text-gray-800">{truncate(movie.description, 180)}
                     <a
                         href={`https://www.themoviedb.org/movie/${movie.id}`}
                         target="_blank"
