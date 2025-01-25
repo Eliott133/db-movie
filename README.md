@@ -73,3 +73,4 @@ On the Favorites page, you can delete a film from your list by clicking on the d
 - React Router: To manage navigation between the application's pages.
 - TMDb API: API used to retrieve movie data.
 - React Context: To manage the status of bookmarks throughout the application.
+- Tailwind css: For easy front end styling
