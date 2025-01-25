@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Movies from './../components/Movies';
 import Search from './../components/Search';
 import Pagination from './../components/Pagination';
+import { API_KEY } from './../config/config_api';
 
 function HomePage() {
     const [search, setSearch] = useState('');
@@ -16,7 +17,7 @@ function HomePage() {
         method: 'GET',
         headers: {
             accept: 'application/json',
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3OGQ5MWRmNDJmM2EyYmNmZDcxYTBkYmJhMGQ4MjE1NiIsIm5iZiI6MTczNzczMzc5OC4xMjMwMDAxLCJzdWIiOiI2NzkzYjZhNjQ0ZWYzOWM4NjAxODVlOTIiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.ILmCiI8v_KxXwHYUcrA6DfdqhTDnhJ5Js_tS4-DoDV0'
+            Authorization: 'Bearer ' + {API_KEY}
         }
     };
 
